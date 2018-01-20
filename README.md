@@ -1,4 +1,4 @@
 # Web-front-end
 html css javacript study notes
 
-只是简单的html css jacascript，如有不足之处请指正。
+只是简单的html css jacascript jqury学习笔记，如有不足之处请指正。
