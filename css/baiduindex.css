@@ -1,0 +1,70 @@
+.top{
+    width: 100%;
+    height: 64px;
+    /* float: right; */
+    /* text-align: right; */
+    /* padding-left: 1530px; */
+    /* text-decoration: none; */
+}
+.top .title {
+    height: 64px;
+    float: right;
+}
+.top .title span{
+    line-height: 64x;
+    float: right;
+}
+.top .title span a{
+    font-size: 16px;
+    /* font-weight: normal; */
+    /* font-family: "宋体"； */
+    text-decoration: underline;
+    color: #333;
+}
+.top .title span .bold{
+    font-weight: bold;
+    /* text-decoration:none; */
+}
+.list{
+    width: 60px;
+    height: 25px;
+    background: #398BFB;
+    color: #fff;
+    border: 0;
+}
+.minibody{
+    width:70%;height:620px;
+    margin:0 auto;
+}
+.search{
+    width:630px;
+    margin:0 auto;
+}
+.logo{
+    width:270px;height:129px;
+    display:block;
+    margin:75px auto 25px;
+}
+#submit{
+    width:100px;height:36px;
+    background:#3385ff; 
+    border:1px solid #06F;color:#fff;
+    font-size:15px;
+}
+#search{
+    width:526px;height:36px;
+}
+.foot{
+    line-height:30px;
+    text-align: center;
+    /* vertical-align: baseline; */
+    margin-top: 400px;
+    }
+.text1{
+    color:#272727;
+    font:12px arial;
+}
+.text2{
+    color:#666;
+    font:12px arial;
+}

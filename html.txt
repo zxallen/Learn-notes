@@ -1,0 +1,151 @@
+width：宽    height：高
+
+border：边框 ——border：1px solid #blue;
+border—top：
+boder—right:
+border—bottom：
+border—left：
+
+solid 实线
+dashed 虚线  
+dotted 点线
+double 双倍
+groove 三D效果
+ridge 三D笼罩
+inset 内部（三D）
+outset 外部（三D）
+
+padding：内间距  ——padding：1px solid #blue;
+padding—top：
+padding—right：
+padding—bottom：
+padding—left：
+padding：20px 40px 50px 30px; 
+/* 四个值按照顺时针方向，分别设置的是 上 右 下 左  四个方向的内边距值。 */
+
+padding：20px 40px 50px; /* 设置顶部内边距为20px，左右内边距为40px，底部内边距为50px */ 
+padding：20px 40px; /* 设置上下内边距为20px，左右内边距为40px*/ 
+padding：20px; /* 设置四边内边距为20px */
+
+margin 外边距
+外边距的设置方法和padding的设置方法相同，将上面设置项中的'padding'换成'margin'就是外边距设置方法。
+
+
+
+1、visible 默认值。内容不会被修剪，会呈现在元素框之外。
+2、hidden 内容会被修剪，并且其余内容是不可见的，此属性还有清除浮动、清除margin-top塌陷的功能。
+3、scroll 内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。
+4、auto 如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。
+
+
+
+display属性
+display属性是用来设置元素的类型及隐藏的，常用的属性有：
+1、none 元素隐藏且不占位置
+2、block 元素以块元素显示
+3、inline 元素以内联元素显示
+4、inline-block 元素以内联块元素显示
+
+
+文本常用样式属性
+color 设置文字的颜色，如： color:red;
+font-size 设置文字的大小，如：font-size:12px;
+font-family 设置文字的字体，如：font-family:'微软雅黑';为了避免中文字不兼容，
+一般写成：font-family:'Microsoft Yahei';
+
+font-weight 设置文字是否加粗，如：font-weight:bold; 设置加粗 font-weight:normal 设置不加粗
+font-style 设置字体是否倾斜，如：font-style:'normal'; 设置不倾斜，font 同时设置文字的几个属性，
+写的顺序有兼容问题，建议按照如下顺序写： font：是否加粗 字号/行高 字体；如： font:normal 12px/36px '微软雅黑';font-style:'italic';设置文字倾斜
+
+line-height 设置文字的行高，如：line-height:24px; 表示文字高度加上文字上下的间距是24px，也就是每一行占有的高度是24px
+text-decoration 设置文字的下划线，如：text-decoration:none; 将文字下划线去掉
+text-align 设置文字水平对齐方式，如text-align:center 设置文字水平居中
+text-indent 设置文字首行缩进，如：text-indent:24px; 设置文字首行缩进24px
+
+
+
+list-style 设置无序列表中的小圆点，一般把它设为"无"，如：list-style:none
+
+
+
+
+// js:小括号一般书写参数和条件；大括号书写命令 
+// 当浏览器窗口加载完成之后（当html+css读取完成之后），执行后面大括号里面的命令
+<script>
+windows.onload = function(){
+
+}
+</script>
+
+
+position:absolute;  绝对定位
+生成绝对定位的元素，
+相对于 static 定位以外的第一个父元素进行定位。
+元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。
+
+position:relative;  生成相对定位的元素，
+相对于其正常位置进行定位。
+因此，"left:20" 会向元素的 LEFT 位置添加 20 像素。
+static默认值。没有定位，元素出现在正常的流中（忽略 top, bottom, left, right 或者 z-index 声明）。
+
+position:fiexd; 生成绝对定位的元素，相对于浏览器窗口进行定位。
+
+cursor:pointer; cursor 属性规定要显示的光标的类型（形状）。
+pointer：光标呈现为指示链接的指针（一只手）
+
+
+border-radius:15px;  圆角
+
+opacity:0.5; 设置 div 元素的不透明级别：
+opacity: value|inherit;
+value：规定不透明度。从 0.0 （完全透明）到 1.0（完全不透明）。
+inherit：应该从父元素继承 opacity 属性的值。
+
+
+
+
+JQuery
+hide:快
+toggle:
+show:慢
+siblings()————》next（）
+
+
+动画函数
+slideUp:向上滑动（隐藏）
+slideDown: 中合体
+slideToggle:向下滑动 (显示)
+
+透明度
+fadeIn：淡入  ——透明显示
+fadeToggle：中合体
+fadeOut：淡出  ——透明隐藏
+fadeTo透明度  =  opacity透明度（时间,透明度）  ——设置透明度
+
+
+prop()和css()的单属性用法完全相同——css('width','500px')   css('width'）
+1访问   2设置
+
+.val()=.value()
+
+AutoFileName
+
+event 形参  ： 把选中的标签，加一个索引值的排序  == event就是索引值
+prevAll：查找当前元素之前所有的同辈元素 ---- （addClass/添加属性）
+
+
+获取和失去焦点：
+focus ：获取焦点
+blur：失去焦点
+
+scroll：当用户滚动指定的元素时，会发生 scroll 事件。
+
+resize:当窗口尺寸发生变化的时候发出的命令
+
+console
+
+delegate:
+
+
+
+

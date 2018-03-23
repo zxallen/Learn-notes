@@ -1,0 +1,373 @@
+.body{
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+}
+
+/* 顶部top栏 */
+.top{
+    width: 100%; height: 29px; 
+    background-color: #f7f7f7; 
+    border-bottom: 1px solid #dddddd;
+}
+.header{
+    width: 1200px; height: 29px;
+    line-height: 29px;
+    margin: 0 auto;
+}
+.welcome{
+    height: 29px;
+    line-height: 29px;
+    color: #666;
+    float: left;
+}
+.title{
+    height: 29px;
+    line-height: 29px;
+    color: #666;
+    float: right;
+}
+.title a{
+    color: #666;
+}
+.title a:hover{
+    color: #ff8800;
+}
+.title span,.car_link span{
+    color: #cecece;
+    padding: 0 12px;
+}
+
+/* logo  搜索框   购物车 */
+.top_center{
+    width: 1200px;
+    height: 115px;
+    margin: 0 auto;
+}
+.pic_logo{
+    width: 150px;
+    height: 59px;
+    margin-top: 30px;
+    float: left;
+}
+.serch{
+    width: 616px;
+    height: 38px;
+    border: 1px solid #37ab40;
+    margin: 34px 0 0 124px;
+    float: left;
+}
+.input_search{
+    width: 519px;
+    height: 40px;
+    border: 1px solid #37ab40;
+    margin-top: 35px;
+    margin-left: 125px;
+    outline: none;
+    background: url(../images/icons.png) no-repeat 4px 9px;  
+    float:left;
+}
+.input_sub{
+	width:101px;
+	height:40px;
+	background-color:#37ab40;
+    border:0px;
+    margin-top: 35px;
+	font-size:14px;
+	color:#fff;
+	cursor:pointer;
+}
+.top_center .goods_car{
+    width: 200px;
+    height: 40px;
+    margin-top: 35px;
+    background:url(../images/icons.png) no-repeat 9px -43px #f7f7f7;
+    float: right;
+}
+.goods_car a{
+    width:158px;
+	height:38px;
+    border:1px solid #ddd;
+	line-height:38px;
+	text-indent:56px;
+	font-size:14px;
+	color:#37ab40;
+    float: left;
+}
+.goods_car span{
+    width:40px;
+	height:40px;
+	background-color:#ff8800;
+	text-align:center;
+	line-height:40px;
+	font-size:18px;
+	color:#fff;
+    font-weight:bold;
+    float: left;
+}
+
+/* 下面是搜索框下第一个横向菜单栏——————竖向菜单栏 */
+.main_menu_con{
+    height: 40px;
+    border-bottom: 2px solid #37ab40;
+}
+.main_menu{
+    width: 1200px;
+    height: 40px;
+    margin:0 auto;
+}
+.main_menu h2{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #37ab40;
+    font: normal 14px/40px 'Microsoft Yahei';
+    color: #fff;
+    text-align: center;
+}
+.main_menu ul{
+    overflow: hidden;
+}
+.f1
+{
+    float: left;
+}
+.main_menu li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.main_menu li a{
+    padding: 0 22px;
+    border-left: 1px solid #ddd;
+    font-size: 14px;
+    color: #666;
+    margin-left: -1px;
+}
+.main_menu li a:hover{
+    color: #ff8800;
+}
+
+/* 中-左  菜单栏 */
+.center_con{
+    width: 1200px;
+    height: 270px;
+    margin: 0 auto;
+}
+.sub_menu{
+    width: 200px;
+    height: 270px;
+}
+.sub_menu li{
+    width: 198px;
+    height: 44px;
+    border: 1px solid #eee;
+    border-top: 0px;
+    background: url(../images/icons.png) 177px -385px no-repeat;
+}
+.sub_menu li a{
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    background: url(../images/icons.png) 30px -90px no-repeat;
+}
+.sub_menu li .icon02{
+    background-position: 30px -140px;
+}
+.sub_menu li .icon03{
+    background-position: 30px -190px;
+}
+.sub_menu li .icon04{
+    background-position: 30px -240px;
+}
+.sub_menu li .icon05{
+    background-position: 30px -290px;
+}
+.sub_menu li .icon06{
+    background-position: 30px -340px;
+}
+
+/* 图片展示区 */
+.show_pic{
+    width: 760px;
+    height: 270px;
+    background-color: gold;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+.show_pic_list{
+    width: 760px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    float: left;
+}
+.show_pic_list li{
+    width: 760px;
+    height: 270px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    float: left;
+    /* overflow: hidden; */
+}
+.prev{
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    left: 11px;
+    top: 122px;
+    cursor: pointer;
+    background: url(../images/icons.png) -1px -450px no-repeat;
+}
+.next{
+    width: 15px;
+    height: 23px;
+    position: absolute;
+    top: 122px;
+    right: 11px;
+    cursor: pointer;
+    background: url(../images/icons.png)-1px -500px no-repeat;
+}
+/* .points{
+    width: 100%px;
+    height: 11px;
+    text-align: center;
+    font-size: 0;
+    position: absolute;
+    left: o;
+    bottom: 9px;
+}
+.points li{
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-color: #9f9f9f;
+    margin: 0 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.points .active{
+	background-color:#cecece;
+} */
+.adv_pic{
+	width:240px;
+	height:270px;
+    background-color: pink;
+    float: left;
+}
+/* 解决图片底部出现3像素空白的bug */
+.adv_pic img{
+	display:block;
+}
+
+/* 新鲜水果展示区 */
+.fruit_show{
+    width: 1200px;
+    height: 335px;
+    margin:21px auto 0;
+}
+.fruit_title{
+    height: 33px;
+    border-bottom: 2px solid #42ad46;
+}
+.fruit_title h3{
+    height: 33px;
+    color: #37ab40;
+    font: bold 16px/33px 'Microsoft Yahei';
+    float: left;
+}
+.fruit_title ul{
+    margin-left: 22px;
+    float: left;
+}
+.fruit_title ul li{
+    float: left;
+    height: 33px;
+    margin-left: 15px;
+}
+.fruit_title ul li a,.fruit_title ul li span{
+	line-height:33px;
+	color:#666;
+}
+.fruit_title ul li a:hover{
+    color: #ff8800;
+}
+.fruit_title .more{
+    height:33px;
+	font:normal 12px/33px 'Microsoft Yahei';
+    color:#666;
+    float: right;
+}
+.fruit_title .more:hover{
+    color: #ff8800;
+}
+/* .fruit_goods{
+    width: 200px;
+    height: 300px;
+} */
+.fruit_banner{
+    width: 200px;
+    height: 300px;
+}
+.fruit_goods_list{
+    width: 1000px;height: 300px;
+}
+.fruit_goods_list li{
+    float: left;
+    width: 249px;
+    height: 299px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.fruit_goods_list li h4{
+    height: 52px;
+    font: normal 14px/52px 'Microsoft Yahei';
+    color: #666;
+    text-align:  center;
+}
+.fruit_goods_list li a{
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.fruit_goods_list li div{
+    text-align: center;
+    font: bold 20px/40px 'Microsoft Yahei';
+    color: #c40000;
+    margin-top: 22px;
+}
+
+/* 底部信息 */
+.footer{
+    margin-top: 30px;
+    margin-bottom: 34px;
+    border-top: 2px solid #4ab14e;
+}
+.footer_link{
+    text-align: center;
+    margin-top: 38px;
+}
+.footer_link a,.footer_link span{
+    color: #4e4e4e;
+    font-size: 12px;
+}
+.footer_link a:hover{
+    color: #ff8800;
+}
+.footer_link span{
+    margin: 0 5px;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color: #4e4e42;
+    line-height: 26px;
+    margin-top: 9px;
+}
